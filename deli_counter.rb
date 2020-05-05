@@ -14,7 +14,7 @@ end
 def take_a_number(katz_deli, name)
   add_person = []
   katz_deli.each_with_index{|person, number| add_person << " #{number + 1}. #{person}"}
-  katz_deli.concat
+  katz_deli.concat(add_person)
     puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
   end
 
