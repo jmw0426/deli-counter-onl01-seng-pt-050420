@@ -12,9 +12,10 @@ def line(katz_deli)
 end    
 
 def take_a_number(katz_deli, name)
-  add_person = []
-  katz_deli.each_with_index{|person, number| add_person << " #{number + 1}. #{person}"}
-  katz_deli.concat(add_person)
+  # add_person = []
+  
+  # katz_deli.each_with_index{|person, number| add_person << "#{person}"}
+  katz_deli << name
     puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
   end
 
