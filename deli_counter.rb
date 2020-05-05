@@ -6,9 +6,17 @@ def line(katz_deli)
   
   else 
     line_size = []
-    katz_deli.each_with_index{|people, index| line_size << "#{index + 1}. #{people}"}
+    katz_deli.each_with_index{|people, index| line_size << " #{index + 1}. #{people}"}
     puts "The line is currently: #{line_size.join('')}"
   end
 end    
 
-def take_a_number(katz_deli, name)
+# def take_a_number(katz_deli, name)
+#   add_person = []
+#   katz_deli.each_with_index do |person, number| add_person << "#{number + 1} #{person}" 
+  
+#   if 
+  
+  
+  
+  
