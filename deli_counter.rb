@@ -11,11 +11,11 @@ def line(katz_deli)
   end
 end    
 
-# def take_a_number(katz_deli, name)
-#   add_person = []
-#   katz_deli.each_with_index do |person, number| add_person << "#{number + 1} #{person}" 
+def take_a_number(katz_deli, name)
+  add_person = []
+  katz_deli.each_with_index do |person, number| add_person << "#{number + 1} #{person}" 
   
-#   if 
+  if 
   
   
   
