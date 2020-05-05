@@ -14,7 +14,7 @@ end
 def take_a_number(katz_deli, name)
   add_person = []
   katz_deli.each_with_index{|person, number| add_person << "#{number + 1} #{person}"} 
-    puts "Welcome, #{person}. You are number #{number} in line."
+    puts "Welcome, #{add_person[-1}}. You are number in line."
   end
 
   
